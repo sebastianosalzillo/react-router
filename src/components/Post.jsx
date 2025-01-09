@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
+import "../App.css"
 
 function Post() {
   const [articles, setArticles] = useState([]);

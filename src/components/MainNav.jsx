@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 
+
 function MainNav() {
   const menu = [
     {
@@ -14,7 +15,7 @@ function MainNav() {
   ];
 
   return (
-    <nav>
+    <nav className="navBar">
       <ul>
         {menu.map((curItem) => (
           <li>

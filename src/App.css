@@ -1,0 +1,158 @@
+.navBar {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navBar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  .navBar li {
+    margin: 0 1rem;
+  }
+  
+  .navBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navBar .active {
+    color: #ff9900;
+    border-bottom: 2px solid #ff9900;
+  }
+  
+
+  .appHeader {
+    background-color: #444;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 2px solid #ff9900;
+  }
+  
+  .appHeader h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .appHeader nav {
+    margin-top: 1rem;
+  }
+  
+
+  .appFooter {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-top: 2px solid #ff9900;
+  }
+  
+  .appFooter h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+
+  .homePage {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .homePage .post {
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  form {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  form .form-label {
+    font-weight: bold;
+  }
+  
+  form .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+  }
+  
+  form .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .list-group-item {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+  }
+  
+  .list-group-item h5 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #495057;
+  }
+  
+  .list-group-item p {
+    color: #6c757d;
+    margin-bottom: 1rem;
+  }
+  
+  .list-group-item .btn-danger {
+    align-self: flex-end;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-group-item .btn-danger:hover {
+    background-color: #a71d2a;
+  }
+  
