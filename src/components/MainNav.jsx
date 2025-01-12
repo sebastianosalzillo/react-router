@@ -1,7 +1,5 @@
 import { NavLink } from "react-router-dom";
 
-
-
 function MainNav() {
   const menu = [
     {
@@ -9,8 +7,8 @@ function MainNav() {
       title: "Home",
     },
     {
-      path: "/Contatti",
-      title: "Contact",
+      path: "/creaPost",
+      title: "Crea Post", // Cambia il titolo
     },
   ];
 
@@ -18,7 +16,7 @@ function MainNav() {
     <nav className="navBar">
       <ul>
         {menu.map((curItem) => (
-          <li>
+          <li key={curItem.path}>
             <NavLink to={curItem.path}>{curItem.title}</NavLink>
           </li>
         ))}
